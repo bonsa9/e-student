@@ -25,7 +25,7 @@ const MainLayout: React.FC = () => {
       <div className="flex-1 flex flex-col min-w-0">
         <Header />
 
-        <main className="flex-1 p-6 max-w-7xl w-full mx-auto">
+        <main className="flex-1 p-6 w-full max-w-full">
           {activeTab === 'dashboard' && <DashboardView />}
           {activeTab === 'profile' && <StudentProfileView />}
           {activeTab === 'enrollment' && <EnrollmentRecordView />}

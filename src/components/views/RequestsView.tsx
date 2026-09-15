@@ -57,7 +57,7 @@ export const RequestsView: React.FC<RequestsViewProps> = ({ requestType }) => {
   };
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto font-sans">
+    <div className="space-y-6 w-full max-w-full font-sans">
       {submittedToast && (
         <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-700 rounded-xl text-xs flex items-center gap-2 shadow-sm animate-fade-in">
           <CheckCircle2 className="w-4 h-4 text-emerald-600" /> Request submitted successfully to Registrar!

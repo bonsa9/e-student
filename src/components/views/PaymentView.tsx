@@ -7,7 +7,7 @@ export const PaymentView: React.FC = () => {
   const [bankSlipUploaded, setBankSlipUploaded] = useState(false);
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto font-sans">
+    <div className="space-y-6 w-full max-w-full font-sans">
       <div className="bg-blue-600 rounded-xl p-6 text-white flex items-center justify-between shadow-md">
         <div>
           <h2 className="text-2xl font-bold font-display">Tuition & Cost Sharing Payment</h2>

@@ -17,7 +17,7 @@ export const AcademicHistoryView: React.FC = () => {
   ];
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto font-sans">
+    <div className="space-y-6 w-full max-w-full font-sans">
       {/* Top Main Blue Header Banner */}
       <div className="bg-blue-600 rounded-xl p-6 text-white flex items-center gap-4 shadow-md">
         <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-white backdrop-blur-sm border border-white/30">

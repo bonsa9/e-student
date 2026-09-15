@@ -8,7 +8,7 @@ export const DashboardView: React.FC = () => {
   const totalCredits = enrolledCourses.reduce((sum, c) => sum + c.creditHours, 0);
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto font-sans">
+    <div className="space-y-6 w-full max-w-full font-sans">
       {/* Welcome Card */}
       <div className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 rounded-2xl p-6 text-white shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>

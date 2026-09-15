@@ -5,7 +5,7 @@ export const CurriculumView: React.FC = () => {
   const { studentProfile } = useApp();
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto font-sans">
+    <div className="space-y-6 w-full max-w-full font-sans">
       <div className="bg-blue-600 rounded-xl p-6 text-white shadow-md">
         <h2 className="text-2xl font-bold font-display">Program Curriculum</h2>
         <p className="text-xs text-blue-100 mt-1">{studentProfile.personal.program} • ASTU Requirements</p>
